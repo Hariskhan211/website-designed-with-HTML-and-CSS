@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    background-color:rgb(90, 87, 87) ;
+    border: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-top: 13rem;
+}
+html{
+    font-size: 62.5%;
+}
+h1,li,button,p,label,input,h2,h3{
+    font-size: 2.6rem;
+}
+/* Nav section width hero */
+.main-head{
+    background-color: rgb(53, 52, 52);
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    min-height: 10vh;
+    padding: 2rem;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content:space-around;
+    align-items: center;
+}
+#logo{
+    flex: 1 1 40rem;
+}
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(109, 103, 103, 0.205)),url(/images/pic1.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.hero>h2{
+    margin-top: 4rem;
+}
+.hero-h3{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+/* benefits section */
+#locations{
+    min-height: 100vh;
+    background: linear-gradient(rgba(7, 7, 7, 0.644),rgba(241, 239, 239, 0.178)),url(images/jacky-lo-LjX-m_UXQGM-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+}
+.locations-head{
+    width: 90%;
+    margin: auto;
+}
+.locations-head h2{
+    color: white;
+    font-size: 4rem;
+    text-decoration: underline;
+    padding: 1rem 0rem;
+}
+.locations-head h3{
+    color: white;
+    padding: 2rem 0rem;
+}
+#benefits{
+    background-color: rgb(53, 52, 52);
+    padding: 3rem;min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+.benefits-head h2{
+    padding: 1rem;
+}
+.cards{
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.card{
+    text-align: center;
+    flex: 1 1 25rem;
+    min-height: 40vh;
+    margin: 2rem 2.5rem;
+    box-shadow: 0 5px 20px black;
+}
+.card img{
+    height: 80px;
+    max-width: 15%;
+    margin: 0.8rem;
+}
+.card-icon{
+    background-color:rgb(53, 52, 52) ;
+    color: white;
+}
+#contact{
+    background: linear-gradient(rgba(7, 7, 7, 0.815),rgba(109, 103, 103, 0.205)),url(/images/israel-sundseth-RvmFyFBHv-A-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form{
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(109, 103, 103, 0.705);
+    border-radius: 20px;
+    color: white;
+}
+.input-form{
+    margin: 1.1rem  auto;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.input-fields{
+    border-radius: 20px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+}
+/* Media Query */
+@media screen and (max-width: 932px){
+
+nav{
+   text-align: center;
+}
+html{
+    font-size: 40%;
+}
+    
+}
